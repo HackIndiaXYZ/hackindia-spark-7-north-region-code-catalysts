@@ -1,0 +1,43 @@
+# ── Dependencies ──
+node_modules/
+.pnp
+.pnp.js
+
+# ── Environment Variables ──
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ── Build Output ──
+dist/
+build/
+.next/
+
+# ── Logs ──
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# ── OS Files ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# ── ML Model Files (too large for GitHub, >50MB each) ──
+ml_service/models/*.pkl
